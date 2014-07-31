@@ -1,4 +1,4 @@
-partscatalog
+Parts Catalog
 ============
 
 This is a simple appliction to log parts and generate barcodes on an android device.  It will store the data on a remote sql database.
