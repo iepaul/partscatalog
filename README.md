@@ -6,4 +6,5 @@ This is a simple appliction to log parts and generate barcodes on an android dev
 Folders:
 --------
 partscatalog - this is the android application
+
 parts - this is the php web site
