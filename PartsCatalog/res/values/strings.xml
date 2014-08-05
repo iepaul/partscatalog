@@ -4,5 +4,6 @@
     <string name="app_name">Parts Catalog</string>
     <string name="action_settings">Settings</string>
     <string name="scan">Scan</string>
-
+	<string name="picture">Picture</string>
+	
 </resources>

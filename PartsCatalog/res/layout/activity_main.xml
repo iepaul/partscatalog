@@ -8,11 +8,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ie.sal.partscatalog.MainActivity" >
 
-<Button android:id="@+id/scan_button"
-	android:layout_width="wrap_content"
+<Button
+    android:id="@+id/scan_button"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="18dp"
     android:text="@string/scan" />
+
+<Button
+    android:id="@+id/btnCapturePicture"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/scan_button"
+    android:layout_alignBottom="@+id/scan_button"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="24dp"
+    android:text="@string/picture" />
     
 <TextView
     android:id="@+id/scan_format"
@@ -29,5 +43,11 @@
     android:textIsSelectable="true"
     android:layout_centerHorizontal="true"
     android:layout_below="@id/scan_format" />
+
+<ImageView
+	android:id="@+id/imgPreview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone" />
 
 </RelativeLayout>
